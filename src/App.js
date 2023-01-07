@@ -8,8 +8,6 @@ function App() {
   const [listData, setListData] = useState([]);
 
   const addActivity = () => {
-    // setListData([...listData,activity]);
-    // console.log("ListData : ",listData)
     setListData((listData) => {
       const updatedList = [...listData, activity];
       console.log("Updated List : ", updatedList);
